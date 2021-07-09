@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #85342e;
+    padding: 20px;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    text-align: center;
+    padding: 3px;
+}
+
+.imagem-redeSocial{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+}
+footer{
+    background-color:#85342e ;
+   text-align: center;
+
+}
+h3{
+    padding: 8px;
+}
