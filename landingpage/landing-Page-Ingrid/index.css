@@ -3,13 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+
+.parent{
+    display: flex;
+}
+
+.cabeçalho{
     display: flex;
     background-color: #85342e;
     padding: 20px;
     color: antiquewhite;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+}
+
+.cabeçalho a{
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    display: block;
+    text-decoration: none;
+}
+
+.cabeçalho a.selected{
+    opacity: 1;
 }
 
 #logo{
@@ -17,16 +37,52 @@ nav{
     padding: 3px;
 }
 
-.imagem-redeSocial{
-   height: 30px;
-   width: 30px;
-   border-radius: 50%;
+.content{
+    position: absolute;
+    /* width: 80%;
+    height: 100%; */
+    background-color: orangered;
+     /* padding: 0 50%; */
+     overflow: auto; 
+     bottom: 22%
 }
+
+.descricao{
+    text-align: center ;
+    color: white;
+    opacity: 1;
+}
+
+.contats{
+    width: 100%;
+    background-color: green;
+    text-align: center ;
+    color: white;
+    opacity: 1;
+    bottom: 11.3%; 
+}
+
+#apresentacao{
+    position: absolute;
+    overflow: auto;
+
+}
+
+
 footer{
     background-color:#85342e ;
-   text-align: center;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
 
 }
 h3{
     padding: 8px;
+}
+
+.imagem-redeSocial{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
 }
