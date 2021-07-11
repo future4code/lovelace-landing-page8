@@ -5,18 +5,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
-.contant {
-    display: grid;
-    grid-template-rows: 60px 1fr 60px;
-    grid-template-columns: 60px 1fr;
-    height: 100vh;
+html {
+    scroll-behavior: smooth;
   }
 
 body{
     width: 100%;
 }
-
 
 .cabeçalho{
     display: flex;
@@ -27,7 +22,7 @@ body{
     align-items: center;
     position: fixed;
     width: 100%;
-    position: fixed;
+    
     
 }
 
@@ -38,10 +33,12 @@ body{
     display: block;
     text-decoration: none;
     
+    
 }
 
-.cabeçalho a.selected{
-    opacity: 1;
+.cabeçalho :hover{
+ opacity: 1;
+
 }
 
 #logo{
@@ -50,15 +47,6 @@ body{
     padding: 3px;
     height: 85vh;
 }
-
-/* .content{
-    position: absolute;
-   width: 100%;
-    background-color: orangered;
-  
-     overflow: auto; 
-     bottom: 22%
-} */
 
 button{
     justify-content: space-between;
@@ -69,20 +57,20 @@ button{
      border-radius: 20px;
      height: 100px;
      color: antiquewhite;
-     
  }
 
 .botoes{
     
     display: flex;
     padding-left: 30px;
-    
-    
-    
+    text-decoration: none;
 }
 
-
-
+.botoes a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.4;
+}
 
 .card-produto{
   display: flex;
@@ -93,10 +81,7 @@ button{
   box-shadow: 2px 2px 5px darkgrey;
   margin-bottom: 8px;
   margin-top: 8px;
-    
 }
-
-
 
 #congelados-menu{
   display: grid;
@@ -121,7 +106,6 @@ button{
     overflow: auto;
     
 }
-
 
 .doces{
     display: grid;
@@ -157,8 +141,9 @@ button{
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 1vw;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(194, 181, 181);
 
 }
 .title-doces{
@@ -166,8 +151,9 @@ button{
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 1vw;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(194, 181, 181);
 }
 
 .title-marmita{
@@ -175,8 +161,9 @@ button{
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 1vw;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(194, 181, 181);
 }
 
 .title-higiene{
@@ -184,8 +171,9 @@ button{
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 1vw;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(248, 247, 247);
 }
 
 .produtos-menu{
@@ -227,9 +215,6 @@ button{
     font-size: 30px;
 }
 
-
-
-
 .paragrafoQuemSomos{
     text-align: center;
     font-size: 20px;
@@ -237,7 +222,6 @@ button{
     padding: 15px;
     
 }
-
 
 footer{
     display: flex;
@@ -269,28 +253,8 @@ footer{
 .imagem-produto{
    height: 300px;
    border-radius: 50%;
-   margin: 20px 20px 20px ;
+   margin: 20px 20px 20px;
+   width:300px;
    
 
 }
-
-/* 
- 
-
-a:link {
-    
-    color: #FFF;
-    text-decoration:lightcyan;
-    font-weight: bold;
-    border-width: 4px;
-   
-    
-   
-   }
-
-a:hover {
-   
-    color: #FFF;
-   
-      }
-
