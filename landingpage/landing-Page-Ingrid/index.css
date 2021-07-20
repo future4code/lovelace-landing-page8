@@ -1,0 +1,305 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.contant {
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 60px 1fr;
+    height: 100vh;
+  }
+
+body{
+    width: 100%;
+}
+
+
+.cabeçalho{
+    display: flex;
+    background-color: #85342e;
+    padding: 20px;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.cabeçalho a{
+    color: white;
+    opacity: 0.4;
+    font-size: 29px;
+    display: block;
+    text-decoration: none;
+    
+}
+
+.cabeçalho a.selected{
+    opacity: 1;
+}
+
+#logo{
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    height: 85vh;
+}
+
+/* .content{
+    position: absolute;
+   width: 100%;
+    background-color: orangered;
+  
+     overflow: auto; 
+     bottom: 22%
+} */
+
+button{
+    justify-content: space-between;
+     align-items: center;
+     background-color:#85342e;
+     font-size:larger;
+     width: 400px;
+     border-radius: 20px;
+     height: 100px;
+     color: antiquewhite;
+     
+ }
+
+.botoes{
+    
+    display: flex;
+    padding-left: 30px;
+    
+    
+    
+}
+
+
+
+
+.descricao{
+    text-align: center ;
+    color:#85342e;
+    padding: 0px 0px 0px 70px;
+    background-color: rgb(233, 223, 223);
+    height: 42vh;
+    font-size: 30px;
+    font-weight: 500px;
+    
+}
+
+.descricao h2{
+    background-color: rgb(221, 212, 212);
+    height: 20%;
+    justify-content: center;
+    padding-top: 20px;
+    
+    
+}
+
+/* .contats{
+    width: 100%;
+    background-color: green;
+    text-align: center ;
+    color: white;
+    opacity: 1;
+    bottom: 11.3%; 
+.content{
+    display: flex;
+  
+  
+  margin: 20px;
+  overflow: auto;
+}
+   
+} */
+
+
+.card-produto{
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px darkgrey;
+  margin-bottom: 8px;
+  margin-top: 8px;
+    
+}
+
+
+
+#congelados-menu{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 50%;
+  column-gap: 5px;
+  margin: 5px;
+  overflow: auto;
+  width: 20px;
+  padding: 30px 30px 30px;
+  height: 30px;
+  grid-column: 1 / -1;
+  align-items:stretch;
+  justify-content: space-between;
+}
+
+.comidaCongelada{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    column-gap: 20px;
+    margin: 20px;
+    overflow: auto;
+    
+}
+
+
+.doces{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    margin: 20px;
+    
+}
+
+.marmita{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    margin: 20px;
+    
+}
+
+.higiene{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    margin: 20px;
+    
+}
+
+.content{
+    align-items: center;
+    height: 20%;
+}
+.title-congelados{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 1vw;
+
+}
+.title-doces{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 1vw;
+}
+
+.title-marmita{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 1vw;
+}
+
+.title-higiene{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 1vw;
+}
+
+.produtos-menu{
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    column-gap: 100px;
+    
+}
+
+#apresentacao{
+    position: absolute;
+    overflow: auto;
+    
+    
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color:#85342e ;
+    width: 100%;
+    height: 70px;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.imagem-redeSocial{
+   height: 30px;
+   border-radius: 50%;
+   margin: 0 5px;
+}
+
+.redeSocialImg{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeSocialImg ul{
+    display: flex;
+    list-style: none;
+}
+.imagem-produto{
+   height: 300px;
+   border-radius: 50%;
+   margin: 20px 20px 20px ;
+   
+
+}
+
+.paragrafoQuemSomos{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 60px;
+    
+}
+
+ 
+
+a:link {
+    
+    color: #FFF;
+    text-decoration:lightcyan;
+    font-weight: bold;
+    border-width: 4px;
+   
+    
+   
+   }
+
+a:hover {
+   
+    color: #FFF;
+   
+      }
+
